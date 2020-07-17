@@ -10,17 +10,21 @@
   </head>
   <body>
     <main class="main">
-      <article>
-        <img src="avatar.png" alt="Zdjęcie Imię i nazwisko"/>
-        <header>
-          <h1>Imię i nazwisko</h1>
-          <p>stanowisko</p>
+      <article class="person">
+        <img
+          class="person__picture"
+          src="avatar.png"
+          alt="Zdjęcie Imię i nazwisko"
+        />
+        <header class="person__info">
+          <h1 class="person__name">Imię i nazwisko</h1>
+          <p class="person__position">stanowisko</p>
         </header>
-        <p>
-          opis
+        <p class="person__description">
+          Kilka słów <strong class="special">o mnie</strong>.
         </p>
-        <p>
-          linki
+        <p class="person__description">
+          Linki: <a class="person__link" href="#">GitHub</a>
         </p>
       </article>
     </main>
